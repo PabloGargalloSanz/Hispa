@@ -1,0 +1,30 @@
+*{
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    text-align:justify;
+    background-color: #212529;
+    color: #E9ecef; 
+    justify-content: space-between;
+
+}
+h1{
+    color: #c9a227;
+}
+section{
+
+}
+footer{
+    background-color: #adb5bd;
+}
+
+#comentarios {
+    resize: none;
+}
+
+#formulario{
+    
+}

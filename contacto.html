@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="contacto.css">
+    </head>
+    <body>
+        <header>
+            <a href="principal.html"><img src="" alt="logoEmpresa"></a>
+            <h1>Contacto</h1>
+            <a href="contacto.html"><p>Contacto</p></a>
+            <a href="buscar.html"><p>Buscar casa</p></a>
+            <button id="iniciarSesion">&#128515;</button>
+
+        </header>
+        <section>
+            <div>
+                <h2>Completa el formulario y le contactamos</h2>
+                <p>Contáctanos para agendar una cita sin compromiso en nuestra inmobiliaria en Zaragoza.
+                    <br>
+                    Encuéntranos en:
+                    <br>
+                     Fernando el Católico, 38 (junto a la Plaza San Francisco)
+                    <br>
+                     Plaza Albert Schweitzer, 3 (entre paseo Damas y Camino las Torres)</p>
+
+            </div>
+            <form id="formulario" method="post">
+                <div>
+                    <label for="nombre"> Nombre</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                <div>
+                    <label for="apellidos"> Apellidos</label>
+                    <input type="text" id="apellidos" required>
+                </div>
+                <div>
+                    <label for="telefono"> Telefono</label>
+                    <input type="number" id="telefono" required>
+                </div>
+                <div>
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div>
+                    <label for="necesidad"> ¿Qué necesitas?</label>
+                    <select id="necesidad" required>
+                        <option value="" disabled selected>Selecciona una opcion</option>
+                        <option value="alquilarCasa" >Alquilar casa</option>
+                        <option value="comprarCasa" >Comprar casa</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="poblacion"> Población</label>
+                    <select id="poblacion" required>
+                        <option value="" disabled selected>Selecciona una opcion</option>
+                        <option value="zaragoza" >Zaragoza</option>
+                        <option value="huesca" >Huesca</option>
+                        <option value="teruel" >Teruel</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comentarios"> Comentarios:</label>
+                    <textarea id="comentarios" rows="5" ></textarea>
+                </div>
+
+                <button type="submit" id="botonEnviar">Enviar</button>
+            </form>
+        </section>
+        
+        <footer>
+            <div>
+                <img src="" alt="logoEmpresa">
+            </div>
+            <div>
+                <p>Hispa inmoviliarias</p>
+            </div>
+            <div>
+                <p>Dirección : Calle inventada, Zaragoza ,España</p>
+                <p>Telefono de contacto: +34 000 000 000</p>
+                <p>Correo: hispazaragoza@hispainmoviliarias.com</p>
+            </div>
+            <div>
+                <p>Horarios atención al cliente</p>
+                <p>Lunes-viernes : 10:00 – 13:30 | 17:00 – 20:30</p>
+                <p>Sabados : 10.00 - 13:30</p>
+            </div>
+
+        </footer>
+    </body>
+</html>
