@@ -4,14 +4,17 @@
         <title>Contacto</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="contacto.css">
+        <link rel="stylesheet" href="global.css">
     </head>
     <body>
         <header>
             <a href="principal.html"><img src="" alt="logoEmpresa"></a>
             <h1>Contacto</h1>
-            <a href="contacto.html"><p>Contacto</p></a>
-            <a href="buscar.html"><p>Buscar casa</p></a>
-            <button id="iniciarSesion">&#128515;</button>
+            <div id="opciones">
+                <a href="contacto.html"><p>Contacto</p></a>
+                <a href="buscar.html"><p>Buscar casa</p></a>
+                <button id="iniciarSesion">&#128515;</button>
+            </div>
 
         </header>
         <section>
@@ -27,42 +30,41 @@
 
             </div>
             <form id="formulario" method="post">
-                <div>
-                    <label for="nombre"> Nombre</label>
-                    <input type="text" id="nombre" required>
+                <div class="partesFormulario">
+                    <input type="text" id="nombre" placeholder="Nombre" required>
                 </div>
-                <div>
-                    <label for="apellidos"> Apellidos</label>
-                    <input type="text" id="apellidos" required>
+
+                <div class="partesFormulario">
+                    <input type="text" id="apellidos" placeholder="Apellidos" required>
                 </div>
-                <div>
-                    <label for="telefono"> Telefono</label>
-                    <input type="number" id="telefono" required>
+
+                <div class="partesFormulario">
+                    <input type="number" id="telefono" placeholder="Telefono"  required>
                 </div>
-                <div>
-                    <label for="email"> Email</label>
-                    <input type="email" id="email" required>
+
+                <div class="partesFormulario">
+                    <input type="email" id="email" placeholder="Email" required>
                 </div>
-                <div>
-                    <label for="necesidad"> ¿Qué necesitas?</label>
+
+                <div class="partesFormulario">
                     <select id="necesidad" required>
-                        <option value="" disabled selected>Selecciona una opcion</option>
+                        <option value="" disabled selected>¿Qué necesitas?</option>
                         <option value="alquilarCasa" >Alquilar casa</option>
                         <option value="comprarCasa" >Comprar casa</option>
                     </select>
                 </div>
-                <div>
-                    <label for="poblacion"> Población</label>
+
+                <div class="partesFormulario">
                     <select id="poblacion" required>
-                        <option value="" disabled selected>Selecciona una opcion</option>
+                        <option value="" disabled selected>Población</option>
                         <option value="zaragoza" >Zaragoza</option>
                         <option value="huesca" >Huesca</option>
                         <option value="teruel" >Teruel</option>
                     </select>
                 </div>
-                <div>
-                    <label for="comentarios"> Comentarios:</label>
-                    <textarea id="comentarios" rows="5" ></textarea>
+
+                <div class="partesFormulario">
+                    <textarea id="comentarios" placeholder="Comentarios" rows="8" cols="60" ></textarea>
                 </div>
 
                 <button type="submit" id="botonEnviar">Enviar</button>
@@ -70,7 +72,7 @@
         </section>
         
         <footer>
-            <div>
+            <div >
                 <img src="" alt="logoEmpresa">
             </div>
             <div>
