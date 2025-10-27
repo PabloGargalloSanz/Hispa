@@ -1,24 +1,7 @@
-*{
-    align-items: center;
-    text-align: center;
-    margin: 0;
-}
-
-header{
-    text-align:justify;
-    background-color: #212529;
-    color: #E9ecef; 
+#opciones {
+    display:flex;
     justify-content: space-between;
-
-}
-h1{
-    color: #c9a227;
-}
-section{
-
-}
-footer{
-    background-color: #adb5bd;
+    gap:10px;
 }
 
 #comentarios {
@@ -27,4 +10,32 @@ footer{
 
 #formulario{
     
+    background-color: #ced4da;
+    margin: 5%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 10px;
+    gap:10px;
+
+}
+
+
+input, select{
+    width: 90%;
+}
+
+.partesFormulario{
+    padding-top: 5%;
+}
+
+::placeholder{
+    text-align: left;
+}
+
+option{
+    text-align: left;
+}
+
+#botonEnviar {
+    margin: 1%;
 }
