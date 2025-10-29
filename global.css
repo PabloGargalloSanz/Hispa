@@ -22,3 +22,8 @@ footer{
 h1{
     color: #c9a227;
 }
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
