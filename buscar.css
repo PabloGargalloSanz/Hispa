@@ -1,0 +1,38 @@
+
+
+#parteSuperior{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+#formulario{
+    background-color: #ced4da;
+    margin: 5%;
+    border-radius: 10px;
+    gap:10px;
+}
+
+input, select{
+    width: 90%;
+}
+.precios {
+    width: 20%;
+}
+
+.partesFormulario{
+    padding-top: 4%;
+}
+
+::placeholder{
+    text-align: left;
+}
+
+option{
+    text-align: left;
+}
+
+#botonEnviar {
+    margin: 1%;
+    margin-top: 4%;
+}
