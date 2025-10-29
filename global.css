@@ -1,0 +1,24 @@
+*{
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    background-color: #212529;
+    color: #E9ecef; 
+    display:flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #adb5bd;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+
+h1{
+    color: #c9a227;
+}
