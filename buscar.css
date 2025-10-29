@@ -55,7 +55,7 @@ option{
 }
 
 .card {
-  width: 100%;
+  width: 50%;
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
@@ -75,6 +75,8 @@ option{
 
 .front{
   background-color: rgb(236, 51, 51);
+  background-image: url("./img/casa1.jpg");
+  background-size: cover;
 }
 
 .scene:hover {
@@ -87,4 +89,9 @@ option{
 .back {
   background-color: blue;
   transform:rotateY(180deg);
+}
+
+.casa {
+    width: 95%;
+    height: 100%;
 }
