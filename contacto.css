@@ -8,15 +8,21 @@
     resize: none;
 }
 
+.informacion {
+    margin-top: 1.5%;
+}
+
+#textoInfo {
+    padding-top: 1%;
+}
+
 #formulario{
-    
     background-color: #ced4da;
     margin: 5%;
     margin-left: 33%;
     margin-right: 33%;
     border-radius: 10px;
     gap:10px;
-
 }
 
 
@@ -25,7 +31,7 @@ input, select{
 }
 
 .partesFormulario{
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
 ::placeholder{
