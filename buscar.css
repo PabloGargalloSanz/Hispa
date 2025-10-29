@@ -1,33 +1,23 @@
-#opciones {
+
+
+#parteSuperior{
     display:flex;
-    justify-content: space-between;
-    gap:10px;
+    justify-content: space-around;
 }
 
-#comentarios {
-    resize: none;
-}
-
-.informacion {
-    margin-top: 1.5%;
-}
-
-#textoInfo {
-    padding-top: 1%;
-}
 
 #formulario{
     background-color: #ced4da;
     margin: 5%;
-    margin-left: 33%;
-    margin-right: 33%;
     border-radius: 10px;
     gap:10px;
 }
 
-
 input, select{
     width: 90%;
+}
+.precios {
+    width: 20%;
 }
 
 .partesFormulario{
@@ -44,4 +34,5 @@ option{
 
 #botonEnviar {
     margin: 1%;
+    margin-top: 4%;
 }
