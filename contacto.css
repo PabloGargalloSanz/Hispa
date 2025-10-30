@@ -1,8 +1,3 @@
-#opciones {
-    display:flex;
-    justify-content: space-between;
-    gap:10px;
-}
 
 #comentarios {
     resize: none;
