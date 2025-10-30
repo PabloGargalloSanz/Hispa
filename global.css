@@ -52,11 +52,17 @@ p, li, label, a, option, input, select{
     font-family: 'Lora';
 }
 
-a, label, option, input, select{
+a, label, option, input, select, #botonEnviar{
     color:#f8f9fa;
 }
 
+select, input, #botonEnviar {
+    background-color: #495057;
+    border-radius: 5px;
+}
 
-select, input {
-    background-color: #adb5bd;
+#iniciarSesion {
+    
+    width: 50px;
+    height: 50px;    
 }
