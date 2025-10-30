@@ -12,9 +12,10 @@ header{
 }
 
 footer{
-    background-color: #adb5bd;
+    background-color: #212529;
     display:flex;
     justify-content: space-around;
+    color: #E9ecef; 
 
 }
 #opciones {
@@ -31,4 +32,31 @@ h1{
 #logo {
     width: 100px;
     height: 100px;
+}
+
+@font-face {
+    font-family:'Lora'; 
+    src: url(./fonts/Lora-Regular.ttf); 
+}
+
+@font-face {
+    font-family:'Playfair'; 
+    src: url(./fonts/PlayfairDisplay-Regular.ttf); 
+}
+
+h1, h2{
+    font-family:'Playfair';
+}
+
+p, li, label, a, option, input, select{
+    font-family: 'Lora';
+}
+
+a, label, option, input, select{
+    color:#f8f9fa;
+}
+
+
+select, input {
+    background-color: #adb5bd;
 }
