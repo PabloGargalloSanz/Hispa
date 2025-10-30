@@ -73,9 +73,14 @@ option{
   border-radius: 15px;
 }
 
-.front{
+.front1{
   background-color: rgb(236, 51, 51);
   background-image: url("./img/casa1.jpg");
+  background-size: cover;
+}
+.front2{
+  background-color: rgb(236, 51, 51);
+  background-image: url("./img/casa2.jpg");
   background-size: cover;
 }
 
