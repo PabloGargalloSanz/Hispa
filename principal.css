@@ -1,26 +1,4 @@
 
-@font-face {
-    font-family:'Lora'; 
-    src: url(..\fonts\Lora-Regular.ttf); 
-}
-
-@font-face {
-    font-family:'Playfair'; 
-    src: url(..\fonts\PlayfairDisplay-Regular.ttf); 
-}
-
-h1{
-    font-family:'Playfair';
-}
-
-h2{
-    font-family:'Playfair';
-}
-
-p{
-    font-family: 'Lora';
-}
-
 body {
   background-color: #f9f9f9;
   color: #333;
