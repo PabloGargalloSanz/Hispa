@@ -1,93 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>principal</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="principal.css">
-        <link rel="stylesheet" href="global.css">
-    </head>
-    <body>
-        <header>
-            <a href="principal.html"><img src="logoEmpresa.png" alt="logoEmpresa"></a>
-            <h1>Contacto</h1>
-            <a href="contacto.html"><p>Contacto</p></a>
-            <a href="buscar.html"><p>Buscar casa</p></a>
-            <button id="iniciarSesion">&#128515;</button>
+<head>
+    <meta charset="UTF-8">
+    <title>Hispa Inmobiliarias</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+    <header>
+        <a href="principal.html"><img class="logo" src="./img/logoEmpresa.png" alt="logoEmpresa"></a>
+            <h1>Buscar vivienda</h1>
+            <div id="opciones">
+                <a href="contacto.html"><p>Contacto</p></a>
+                <a href="buscar.html"><p>Buscar casa</p></a>
+                <img id="iniciarSesion" src="./img/iniciarSesion.png" alt="iniciarSesion">
+            </div>
+    </header>
 
-        </header>
-        <main>
-            <section>
-                <article class="presentacion">
-                    <h2>Hispa Inmobiliarias</h2>
-                    <p>Mas que propiedades, creamos hogares</p>
-                        <br>
-                        <img src="/Hispa/img/mano.jpg" alt="fotoMano">
-                </article>
-                <article id="especialidades">
-                    <h2>Nuestras especialidades</h2>
-                    <div class="piso">
-                        <img src="/Hispa/img/piso.jpg" alt="fotoPiso">
-                        <p>Pisos en todo Zaragoza de todos los tipos y a los mejors precios.</p>
-                    </div> 
-                    <div class="casa">
-                        <img src="/Hispa/img/casa.jpg" alt="fotoCasa">
-                        <p>Casas unifamiliares y adosadas en las mejores zonas de Zaragoza, como el centro y los barrios más exclusivos.</p>
-                    </div>
-                    <div class="villa">
-                        <img src="/Hispa/img/villa.jpg" alt="fotoVilla">
-                        <p>Villas en toda Zaragoza de lujo perfecto para disfrutar de la tranquilidad y el confort o co.</p>
-                    </div>
-                </article>
-                <article class="clavesMercado">
-                    <div class="Satisfaccion">
-                        <img src="/Hispa/img/satisfaccion.jpg" alt="Satisfaccion">
-                        <p>Alta satisfacción del cliente: Nos enorgullece contar con una alta tasa de satisfacción entre nuestros clientes, quienes valoran nuestra atención personalizada y profesionalismo.</p>
-                    </div>
-                    <div class="Experiencia">
-                        <img src="/Hispa/img/exp.jpg" alt="Experiencia">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h2>Opiniones de nuestros clientes</h2>
-                <div class="card">
-                    <div class="container">
-                    <h3><b>--Un trabajo excelente--</b></h3> 
-                    <img src="/Hispa/img/persona.jpg" alt="">
-                    <p></p> 
-                </div>
-                <div class="card">
-                    <div class="container">
-                    <h3><b>--Un trabajo excelente--</b></h3> 
-                    <img src="/Hispa/img/persona.jpg" alt="">
-                    <p></p> 
-                </div>
-                <div class="card">
-                    <div class="container">
-                    <h3><b>--Un trabajo excelente--</b></h3> 
-                    <img src="/Hispa/img/persona.jpg" alt="">
-                    <p></p> 
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <img src="logoEmpresa.png" alt="logoEmpresa">
-            </div>
-            <div>
-                <p>Hispa inmoviliarias</p>
-            </div>
-            <div>
-                <p>Dirección : Calle inventada, Zaragoza ,España</p>
-                <p>Telefono de contacto: +34 000 000 000</p>
-                <p>Correo: hispazaragoza@hispainmoviliarias.com</p>
-            </div>
-            <div>
-                <p>Horarios atención al cliente</p>
-                <p>Lunes-viernes : 10:00 – 13:30 | 17:00 – 20:30</p>
-                <p>Sabados : 10.00 - 13:30</p>
-            </div>
+    <main>
+        <section class="presentacion">
+            <h1>Hispa Inmobiliarias</h1>
+            <p>Más que propiedades, creamos hogares</p>
+            <img src="img/mano.jpg" alt="Mano cerrando un trato inmobiliario">
+        </section>
 
-        </footer>
-    </body>
+        <section id="especialidades">
+            <h2>Nuestras especialidades</h2>
+            <div class="especialidad">
+                <img src="img/piso.jpg" alt="Pisos en Zaragoza">
+                <p>Pisos en todo Zaragoza de todos los tipos y a los mejores precios.</p>
+            </div>
+            <div class="especialidad">
+                <img src="img/casa.jpg" alt="Casas en Zaragoza">
+                <p>Casas unifamiliares y adosadas en las mejores zonas de Zaragoza, como el centro y los barrios más exclusivos.</p>
+            </div>
+            <div class="especialidad">
+                <img src="img/villa.jpg" alt="Villas de lujo">
+                <p>Villas en toda Zaragoza de lujo, perfectas para disfrutar de la tranquilidad y el confort.</p>
+            </div>
+        </section>
+
+        <section class="clavesMercado">
+            <h2>Nuestras claves de mercado</h2>
+            <div class="clave">
+                <img src="img/satisfaccion.jpg" alt="Alta satisfacción">
+                <p>Alta satisfacción del cliente: Nos enorgullece contar con una alta tasa de satisfacción entre nuestros clientes, quienes valoran nuestra atención personalizada y profesionalismo.</p>
+            </div>
+            <div class="clave">
+                <img src="img/exp.jpg" alt="Experiencia del equipo">
+                <p>Experiencia y conocimiento del mercado: Con años de experiencia, nuestro equipo garantiza las mejores decisiones en cada operación.</p>
+            </div>
+        </section>
+
+        <section class="opiniones">
+            <h2>Opiniones de nuestros clientes</h2>
+            <div class="card">
+                <img src="img/persona.jpg" alt="Cliente satisfecho">
+                <h3>Un trabajo excelente</h3>
+                <p>El equipo fue muy profesional y atento en todo momento.</p>
+            </div>
+            <div class="card">
+                <img src="img/persona.jpg" alt="Cliente satisfecho">
+                <h3>Muy profesional</h3>
+                <p>Recomiendo sus servicios totalmente.</p>
+            </div>
+            <div class="card">
+                <img src="img/persona.jpg" alt="Cliente satisfecho">
+                <h3>Excelente apoyo</h3>
+                <p>Gracias por ayudarme a encontrar mi hogar ideal.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img class="logo" src="./img/logoEmpresa.png" alt="Logo de Hispa Inmobiliarias">
+        </div>
+        <div>
+            <p>Hispa Inmobiliarias</p>
+        </div>
+        <div>
+            <p>Dirección: Calle inventada, Zaragoza, España</p>
+            <p>Teléfono: +34 000 000 000</p>
+            <p>Correo: hispazaragoza@hispainmoviliarias.com</p>
+        </div>
+        <div>
+            <p>Horarios atención al cliente</p>
+            <p>Lunes - Viernes: 10:00 – 13:30 | 17:00 – 20:30</p>
+            <p>Sábados: 10:00 – 13:30</p>
+        </div>
+    </footer>
+</body>
 </html>
