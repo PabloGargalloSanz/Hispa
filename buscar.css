@@ -1,38 +1,103 @@
 
 
 #parteSuperior{
-    display:flex;
-    justify-content: space-around;
+  display:flex;
+  justify-content: space-around;
 }
 
 
 #formulario{
-    background-color: #ced4da;
-    margin: 5%;
-    border-radius: 10px;
-    gap:10px;
+  background-color: #6c757d;
+  margin: 5%;
+  border-radius: 10px;
+  gap:10px;
 }
 
 input, select{
-    width: 90%;
+  width: 90%;
 }
 .precios {
-    width: 20%;
+  width: 20%;
 }
 
 .partesFormulario{
-    padding-top: 4%;
+  padding-top: 4%;
 }
 
 ::placeholder{
-    text-align: left;
+  text-align: left;
+  color: #ced4da;
 }
 
 option{
-    text-align: left;
+  text-align: left;
 }
 
 #botonEnviar {
-    margin: 1%;
-    margin-top: 4%;
+  margin: 1%;
+  margin-top: 4%;
+}
+
+#parteInferior {
+  display:flex;
+  flex-wrap:wrap;
+  place-items: center;
+  font-family: system-ui, sans-serif;
+  background-color: #ced4da;
+  justify-content: space-around;
+  padding:2%;
+}
+
+.scene {
+  padding:0.5%;
+  width: 30%;
+  height: 160px;
+  perspective: 800px;
+    
+}
+
+.card {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .6s ease;
+  cursor: pointer;
+  margin-left: 25%;
+}
+
+.face {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  backface-visibility: hidden;
+  color: #f8f9fa;
+  border-radius: 15px;
+}
+
+.front1{
+  background-image: url("./img/casa1.jpg");
+  background-size: cover;
+}
+.front2{
+  background-image: url("./img/casa2.jpg");
+  background-size: cover;
+}
+
+.scene:hover {
+  .card{
+    transition: 1s;
+    transform:rotateY(180deg);
+  }
+}
+
+.back {
+  background-color: #6c757d;
+  transform:rotateY(180deg);
+}
+
+.casa {
+  width: 95%;
+  height: 100%;
 }

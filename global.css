@@ -12,13 +12,57 @@ header{
 }
 
 footer{
-    background-color: #adb5bd;
+    background-color: #212529;
     display:flex;
     justify-content: space-around;
+    color: #E9ecef; 
 
+}
+#opciones {
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
 }
 
 
 h1{
     color: #c9a227;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+@font-face {
+    font-family:'Lora'; 
+    src: url(./fonts/Lora-Regular.ttf); 
+}
+
+@font-face {
+    font-family:'Playfair'; 
+    src: url(./fonts/PlayfairDisplay-Regular.ttf); 
+}
+
+h1, h2{
+    font-family:'Playfair';
+}
+
+p, li, label, a, option, input, select{
+    font-family: 'Lora';
+}
+
+a, label, option, input, select, #botonEnviar{
+    color:#f8f9fa;
+}
+
+select, input, #botonEnviar {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+#iniciarSesion {
+    
+    width: 50px;
+    height: 50px;    
 }

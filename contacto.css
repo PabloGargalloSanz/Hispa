@@ -1,8 +1,3 @@
-#opciones {
-    display:flex;
-    justify-content: space-between;
-    gap:10px;
-}
 
 #comentarios {
     resize: none;
@@ -17,14 +12,19 @@
 }
 
 #formulario{
-    background-color: #ced4da;
+    background-color: #6c757d;
     margin: 5%;
     margin-left: 33%;
     margin-right: 33%;
     border-radius: 10px;
     gap:10px;
 }
-
+textarea{
+    background-color: #495057;
+    color: #f8f9fa;
+    text-align: left;
+    border-radius: 5px;
+}
 
 input, select{
     width: 90%;
@@ -36,6 +36,7 @@ input, select{
 
 ::placeholder{
     text-align: left;
+    color: #ced4da;
 }
 
 option{
